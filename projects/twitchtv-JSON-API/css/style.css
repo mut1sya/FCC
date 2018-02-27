@@ -1,0 +1,17 @@
+.btn-group{
+  margin-right: 23px;
+  margin-top: 7px;
+}
+nav{
+  background-color: #7d3131;
+}
+#mainwork{
+  background-color: #ccc;
+}
+.logo{
+  height:65px;
+  border-radius: 7px;
+}
+.online, .offline{
+  margin-top: 3px;
+}

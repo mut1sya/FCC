@@ -1,0 +1,10 @@
+.row{
+  margin-top:10px;
+}
+#box{
+  height: 350px;
+  width: 350px;
+  background-color: grey;
+  margin-top:100px;
+  border-radius: 10px;
+}

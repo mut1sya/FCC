@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>simon game</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div class="container">
+<div class= "row hidden" id= "errornote">wrong combo<br> try again</div>
+  <div class="row">
+      <div id="red" class="col-sm-6"></div>
+      <div id="blue" class="col-sm-6"></div>
+   </div>
+  <div class="row">
+      <div id="green" class="col-sm-6"></div>
+      <div id="yellow" class="col-sm-6"></div>
+  </div>
+  <div id = "controller" class= "row">
+    <div class="col-sm-3 text-center" id="level">1</div>
+    <div class="col-sm-3"><button id="start" class="btn btn-default">off</button></div>
+    <div class="col-sm-3"><button id="restart" class="btn btn-default">restart</button></div>
+    <div class="col-sm-3"><button id="strict" class="btn btn-default">strict off</button></div>
+  </div>
+
+  <div class="<hidden">
+    <audio id="1">
+      <source src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="2">
+      <source src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="3">
+      <source src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3" type="audio/mpeg">
+    </audio>
+      <audio id="4">
+      <source src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+ 
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+#box{
+  margin-top:300px;
+  height: 230px;
+  width: 350px;
+  background-color: #999;
+  border-radius:20px;
+}
+#message{
+font-family: 'Architects Daughter';font-size: 30px;
+}
+#time{
+  margin-bottom: 20px;
+}
+

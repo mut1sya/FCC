@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>wikipedia viewer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div class = "container">
+  <div class="header text-center">
+   <h3> wikipedia viewer</h3>
+  </div>
+  <div class="row" id= "aftersearch">
+    <div class= "col-md-offset-8 col-sm-offset-8 col-md-4 col-sm-4">
+      <div class="input-group">
+        <input type="text" placeholder="search..." id= "search0" class="form-control" />
+        <span class="input-group-addon glyphicon glyphicon-search" id="icon1"></span>
+      </div>
+    </div>
+  </div>
+  <div id = "searchSection" >
+	<div class="input-group">
+		<input type="text" id="search" placeholder="search..." class="form-control" /><br>
+		<button class="btn btn-default" id="searchIcon"><span class="glyphicon glyphicon-search"></span></button><br><br></div>
+		<a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">
+		<button class="btn btn-info" id="random"><span class="glyphicon glyphicon-random"></span> &nbsp;random article</button>
+		</a>
+	</div> 
+  <div id="results" class="col-sm-offset-2">
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
